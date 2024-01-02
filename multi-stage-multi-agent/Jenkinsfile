@@ -22,7 +22,7 @@ pipeline {
         docker { image 'mysql:8.2' }
       }
       steps {
-        sh 'MYSQL'
+        echo 'MYSQL'
       }
     }
   }
